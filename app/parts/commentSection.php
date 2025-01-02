@@ -9,8 +9,11 @@ include("app/functions/comment_get.php");
             <article>
                 <div class="wrapper">
                     <div class="nameArea">
-                        <span>名前：</span>
+                        <span>スレッドID：</span>
+                        <p class="threadId"><?php echo $comment["thread_id"]; ?></p>
+                        <span>　名前：</span>
                         <p class="username"><?php echo $comment["username"]; ?></p>
+                        <span>　性別：</span>
                         <p class="gender">：
                             <?php
                             if ($comment["gender"] == 1) {

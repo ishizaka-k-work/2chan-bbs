@@ -45,7 +45,17 @@ section .nameArea {
   margin-bottom: -14px;
 }
 
+section .threadId {
+  color: green;
+  font-weight: 700;
+}
+
 section .username {
+  color: green;
+  font-weight: 700;
+}
+
+section .gender {
   color: green;
   font-weight: 700;
 }
