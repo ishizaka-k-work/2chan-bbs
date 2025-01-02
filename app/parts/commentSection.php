@@ -14,7 +14,7 @@ include("app/functions/comment_get.php");
                         <span>　名前：</span>
                         <p class="username"><?php echo $comment["username"]; ?></p>
                         <span>　性別：</span>
-                        <p class="gender">：
+                        <p class="gender">
                             <?php
                             if ($comment["gender"] == 1) {
                                 echo "男";
