@@ -3,6 +3,7 @@ body {
 }
 
 .title {
+  color: gray;
   text-align: center;
   font-size: 34px;
 }
